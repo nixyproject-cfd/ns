@@ -1,10 +1,10 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » NDRA_VPN STORE
-# Email      » ndrahost@gmail.com
-# telegram   » https://t.me/ndra_vpnstore
-# whatsapp   » wa.me/+6285708391463
+# Develovers » DIZY FT NIXY
+# Email      » support@nixystore.cfd
+# telegram   » https://t.me/nixy_store_id
+# whatsapp   » wa.me/+62xxx
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # NDRA_VPN STORE
 
@@ -36,7 +36,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/ndracenter/autosc/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/nixyproject-cfd/update/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
@@ -49,7 +49,7 @@ clear
 
 echo -e ""
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
-echo -e "\e[1;97;101m            » UPDATE SCRIPT «             \033[0m"
+echo -e "\e[1;97;101m            » UPDATE SCRIPT PREMIUM «             \033[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 echo -e "\033[1;91mUpdate Script Service\033[1;37m"
