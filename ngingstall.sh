@@ -1,12 +1,12 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » NDRA_VPN STORE
-# Email      » ndrahost@gmail.com
-# telegram   » https://t.me/ndra_vpnstore
-# whatsapp   » wa.me/+6285708391463
+# Develovers » DIZZY FT NIXY
+# Email      » support@nixystore.cfd
+# telegram   » https://t.me/nixy_store_id
+# whatsapp   » wa.me/+628xxx
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# NDRA_VPN STORE
+# DIZZY FT NIXY
 
 Green="\e[92;1m"
 RED="\033[31m"
@@ -33,10 +33,10 @@ clear;clear;clear
 
 # // Banner
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Developer » NDRA_VPN STORE${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Developer » DIZZY NIXY ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "  » This Will Quick Setup VPN Server On Your Server"
 echo -e "  Pembuat : ${green}ndra_vpn® ${NC}"
-echo -e "  Recode By My Self NDRA_VPN STORE ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e "  CMNT ${YELLOW}(${NC} DIZZY FT NIXY ${YELLOW})${NC}"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 sleep 2
@@ -92,7 +92,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/ndracenter/autosc/main"
+    REPO="https://raw.githubusercontent.com/nixyproject-cfd/ns/main"
 
 ####
 start=$(date +%s)
@@ -279,7 +279,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://www.client-ndrahosting.cloud/data.txt"
+izinsc="https://raw.githubusercontent.com/nixyproject-cfd/Security/main/error"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -316,8 +316,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="6348824977"
-KEY="6854390843:AAHnygrqUOSq-5spVPBBrOvBMy4xcdUBPBU"
+CHATID="-1001850051195"
+KEY="6525206851:AAEK0Wcrr86LiFOe8M0E4Vn9xH0qIPN8rqE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
@@ -332,10 +332,10 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b>NDRA_VPN STORE</b>
+<b>DIZZY FT NIXY</b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/+6285708391463"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://wa.me/nixy_store"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
