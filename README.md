@@ -1,9 +1,9 @@
-## UPGRADE FOR DEBIAN 9 & 10
+## UPGRADE FOR DEBIAN
 ```
 apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 ```
 
-##  UPGRADE FOR UBUNTU 19 & 20
+##  UPGRADE FOR UBUNTU
 ```
 apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ```
