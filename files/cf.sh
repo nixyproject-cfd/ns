@@ -1,11 +1,12 @@
-#!/bin/bash# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » NDRA_VPN STORE
-# Email      » ndrahost@gmail.com
-# telegram   » https://t.me/ndra_vpnstore
-# whatsapp   » wa.me/+6285708391463
+#!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# NDRA_VPN STORE
+# System Request : Debian 9+/Ubuntu 18.04+/20+
+# Develovers » DIZZY FT NIXY
+# Email      » support@nixystore.cfd
+# telegram   » https://t.me/nixy_store_id
+# whatsapp   » wa.me/+628xxx
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# DIZZY FT NIXY
 
 #random
 apt install jq curl -y
@@ -17,10 +18,10 @@ echo ""
 echo ""
 #sub=$(</dev/urandom tr -dc a-z0-9 | head -c3)
 read -rp "Input Domain Name. Example ( kontol12 ): " -e sub
-DOMAIN=serverpremium.biz.id
-SUB_DOMAIN=${sub}.serverpremium.biz.id
-CF_ID=vscobangst111@gmail.com
-CF_KEY=4a912a2d56a1b3837d48751da5334b74a4fb8
+DOMAIN=nixystore.my.id
+SUB_DOMAIN=${sub}.nixystore.my.id
+CF_ID=sariphidayatuloh366@gmail.com
+CF_KEY=aa35d9e3ed017153caeffcbc14ef9d30fd5c7
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
