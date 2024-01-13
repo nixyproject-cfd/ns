@@ -1,12 +1,12 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » NDRA_VPN STORE
-# Email      » ndrahost@gmail.com
-# telegram   » https://t.me/ndra_vpnstore
-# whatsapp   » wa.me/+6285708391463
+# Develovers » DIZZY FT NIXY
+# Email      » support@nixystore.cfd
+# telegram   » https://t.me/nixy_store_id
+# whatsapp   » wa.me/+628xxx
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# NDRA_VPN STORE
+# DIZZY FT NIXY
 
 NS=$( cat /etc/xray/dns )
 PUB=$( cat /etc/slowdns/server.pub )
@@ -18,13 +18,13 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/ndracenter/autosc/main/bot/bot.zip
+wget https://raw.githubusercontent.com/nixyproject-cfd/ns/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/ndracenter/autosc/main/bot/kyt.zip
+wget https://raw.githubusercontent.com/nixyproject-cfd/ns/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
