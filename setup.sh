@@ -33,10 +33,10 @@ clear;clear;clear
 
 # // Banner
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Developer » DIZZY NIXY ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  » DEVELOPER : DIZZY NIXY ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "  » This Will Quick Setup VPN Server On Your Server"
-echo -e "  Pembuat : ${green}ndra_vpn® ${NC}"
-echo -e "  CMNT ${YELLOW}(${NC} DIZZY FT NIXY ${YELLOW})${NC}"
+echo -e "  » AUTHOR : ${green} DIZZY ${NC}"
+echo -e "  » CMNT ${YELLOW}(${NC} DIZZY FT NIXY ${YELLOW})${NC}"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 sleep 2
@@ -246,7 +246,7 @@ echo -e " ━━━━━━━━━━━━━━━━━━━━━━━�
 echo -e " \e[1;32mPlease Select a Domain Type Below \e[0m"
 echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e " \e[1;32m1)\e[0m Menggunakan Domain Sendiri (Recommended)"
-echo -e " \e[1;32m2)\e[0m Menggunakan Domain Random"
+echo -e " \e[1;32m2)\e[0m Menggunakan Domain Random (Error)"
 echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 read -p " Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
