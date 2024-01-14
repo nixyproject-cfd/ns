@@ -36,7 +36,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/nixyproject-cfd/update/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/nixyproject-cfd/ns/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
