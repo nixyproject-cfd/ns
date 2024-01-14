@@ -10,7 +10,7 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 
 ## INSTALL SCRIPT 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/nixyproject-cfd/ns/main/ngingstall.sh && chmod +x ngingstall.sh && ./ngingstall.sh
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/nixyproject-cfd/ns/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 ## UPDATE SCRIPT
