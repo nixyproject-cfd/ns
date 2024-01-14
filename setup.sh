@@ -327,7 +327,6 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>User     :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
 <code>IPVPS    :</code><code>$MYIP</code>
-<code>ISP      :</code><code>$ISP</code>
 <code>DATE     :</code><code>$DATE</code>
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
